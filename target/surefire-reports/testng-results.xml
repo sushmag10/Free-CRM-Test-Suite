@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-24T22:16:06 EDT" name="Surefire suite" finished-at="2025-09-24T22:18:12 EDT" duration-ms="125539">
+    <groups>
+    </groups>
+    <test started-at="2025-09-24T22:16:06 EDT" name="Surefire test" finished-at="2025-09-24T22:18:12 EDT" duration-ms="125539">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@635eaaf1]" started-at="2025-09-24T22:17:21 EDT" name="setUp" finished-at="2025-09-24T22:17:31 EDT" duration-ms="10452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserNameTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@635eaaf1]" started-at="2025-09-24T22:17:31 EDT" name="validateUserNameTest" finished-at="2025-09-24T22:17:32 EDT" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@635eaaf1]" started-at="2025-09-24T22:17:32 EDT" name="tearDown" finished-at="2025-09-24T22:17:32 EDT" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@635eaaf1]" started-at="2025-09-24T22:17:32 EDT" name="setUp" finished-at="2025-09-24T22:17:43 EDT" duration-ms="10480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateContactsLinkTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@635eaaf1]" started-at="2025-09-24T22:17:43 EDT" name="validateContactsLinkTest" finished-at="2025-09-24T22:17:44 EDT" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@635eaaf1]" started-at="2025-09-24T22:17:44 EDT" name="tearDown" finished-at="2025-09-24T22:17:44 EDT" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:06 EDT" name="setUp" finished-at="2025-09-24T22:16:23 EDT" duration-ms="16626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateContactsLabelTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:23 EDT" name="validateContactsLabelTest" finished-at="2025-09-24T22:16:23 EDT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:23 EDT" name="tearDown" finished-at="2025-09-24T22:16:24 EDT" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:24 EDT" name="setUp" finished-at="2025-09-24T22:16:36 EDT" duration-ms="12429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSingleContactTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:36 EDT" name="validateSingleContactTest" finished-at="2025-09-24T22:16:36 EDT" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:36 EDT" name="tearDown" finished-at="2025-09-24T22:16:37 EDT" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:39 EDT" name="setUp" finished-at="2025-09-24T22:16:51 EDT" duration-ms="12028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:51 EDT" name="validateCreateContactTest" data-provider="providecontactsData" finished-at="2025-09-24T22:16:52 EDT" duration-ms="1663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ford]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Health org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:52 EDT" name="tearDown" finished-at="2025-09-24T22:16:53 EDT" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:16:53 EDT" name="setUp" finished-at="2025-09-24T22:17:05 EDT" duration-ms="11755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:17:05 EDT" name="validateCreateContactTest" data-provider="providecontactsData" finished-at="2025-09-24T22:17:06 EDT" duration-ms="1672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tim ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hortons]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cafe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:17:06 EDT" name="tearDown" finished-at="2025-09-24T22:17:07 EDT" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:17:07 EDT" name="setUp" finished-at="2025-09-24T22:17:19 EDT" duration-ms="11768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:17:19 EDT" name="validateCreateContactTest" data-provider="providecontactsData" finished-at="2025-09-24T22:17:20 EDT" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ihop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Break]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@36c88a32]" started-at="2025-09-24T22:17:20 EDT" name="tearDown" finished-at="2025-09-24T22:17:21 EDT" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:17:44 EDT" name="setUp" finished-at="2025-09-24T22:17:50 EDT" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:17:50 EDT" name="loginPageTitleTest" finished-at="2025-09-24T22:17:50 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:17:50 EDT" name="tearDown" finished-at="2025-09-24T22:17:50 EDT" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:17:50 EDT" name="setUp" finished-at="2025-09-24T22:17:56 EDT" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageNavigation()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:17:56 EDT" name="loginPageNavigation" finished-at="2025-09-24T22:18:00 EDT" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:18:00 EDT" name="tearDown" finished-at="2025-09-24T22:18:00 EDT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:18:00 EDT" name="setUp" finished-at="2025-09-24T22:18:06 EDT" duration-ms="6291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:18:06 EDT" name="login" finished-at="2025-09-24T22:18:11 EDT" duration-ms="4736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5c30a9b0]" started-at="2025-09-24T22:18:11 EDT" name="tearDown" finished-at="2025-09-24T22:18:12 EDT" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
